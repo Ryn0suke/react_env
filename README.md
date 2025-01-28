@@ -6,7 +6,8 @@ git clone https://github.com/Ryn0suke/react_env.git
 cd react_env
 docker compose build
 docker compose run node bash
-npm intall
+cd react-app
+npm install
 exit
 docker compose up
 ```
